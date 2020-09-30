@@ -1,0 +1,44 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+html{
+	background-color:#686868;
+}
+
+header{
+	background-color:#604F3D;
+}
+
+article{
+	background-color:#F05694;
+	width:30%;
+	border:2px solid white;
+}
+
+article header, aside header{
+	background-color:#D1D1D1;
+}
+
+aside{
+	background-color:#9A74D5;
+	width:30%;
+	border: 2px solid white;
+}
+
+#footer_end{
+	background-color:#E1CC48;
+	height:20px;
+	width:100%;
+}
+
+main{
+	display:flex;
+	flex-direction:row;
+}
+
+#block_droit{
+	display:flex;
+	flex-direction:column;
+}

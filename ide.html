@@ -5,16 +5,24 @@
 	<head>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="ide.css">
-		<link rel="icon" href="">
+		<link rel="icon" href="images/logos/favicon.png">
+		<link href="https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css2?family=Imprima&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+		<link href="https://fonts.googleapis.com/css2?family=Mali:wght@300&display=swap" rel="stylesheet"> 
 		<title>Leak'IDE</title>
 	</head>
 
 	<body>
-		<header>
+		<header id="nav_bar">
 			<img src="images/logos/leak-ide.png" alt="" id="leak_ide_logo">
 			<nav>
 				<ul>
-					<li><a href="visual-studio.html">Visual Studio</a></li>
+					<li class="invisible_box"><a href="">Box</a></li>
+					<li class="invisible_box"><a href="">Box</a></li>
+					<li class="invisible_box"><a href="">Box</a></li>
+					<li><a href="ide.html">Accueil</a></li>
+					<li><a href="visual-studio.html">Visual</a></li>
 					<li><a href="sublime.html">Sublime</a></li>
 					<li><a href="intellij.html">IntelliJ</a></li>
 					<li><a href="atom.html">Atom</a></li>
@@ -26,30 +34,47 @@
 
 		<main>
 
-			<article>
+			<article id="block_main">
 
 				<header>
+					<img src="images/logos/sublime-logo.jpg" alt="">
 					<h2>Découvrez Sublime Text 3</h2>
 				</header>
 
-				<section id="block_main">
-					<img src="images/screens/sublime2.png">
+				<section>
+					<a href="sublime.html"><img src="images/screens/sublime2.png" alt=""></a>
+					<p>Minimaliste, customisable, léger et rapide, Sublime est à mi-chemin entre IDE et éditeur de texte. <a href="sublime.html">Lire la suite.</a></p>
 				</section>
 
 			</article>
 
 			<section id="block_droit">
-				<aside>	
+				<aside id="aside_1">	
 					<header>
+						<h2>Qu'est-ce qu'un IDE ?</h2>
 					</header>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					<div id="aside_1_text">
+						<blockquote>
+						    "Dans le domaine du développement informatique, l’IDE (ou Integrated Development Environment) regroupe un ensemble d’outils spécifiques. Ceux-ci sont dédiés aux programmeurs afin qu’ils puissent optimiser leur temps de travail et améliorer leur productivité. Autrement dit, l’IDE facilite la mise en œuvre de projets tels que le développement de logiciels ou d’applications."<br><br>Source :
+						<cite><a href="https://www.journaldunet.fr/web-tech/dictionnaire-du-webmastering/1445230-ide-en-informatique-definition-pratique-et-detaillee">https://www.journaldunet.fr/web-tech/dictionnaire-du-webmastering/1445230-ide-en-informatique-definition-pratique-et-detaillee/</a></cite>
+						</blockquote>
+					</div>
+
 
 				</aside>
 
-				<aside>
+				<aside id="aside_2">
 					<header>
+						<h2>A lire aussi</h2>
 					</header>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					
+					<ul id="liste_articles">
+						<li><a href="">5 façons d'ajouter du contenu à sa page web pour la remplir <i class="fa fa-arrow-right" aria-hidden="true"></i></a></li>
+						<li><a href="">En 2010, il s'achetait une pizza pour 42 bitcoins, il témoigne aujourd'hui <i class="fa fa-arrow-right" aria-hidden="true"></i></a></li>
+						<li><a href="">Top 10 des menus de fast food, le 7 va vous étonner <i class="fa fa-arrow-right" aria-hidden="true"></i></a></li>
+						<li><a href="">Nos astuces minceur pour l'été <i class="fa fa-arrow-right" aria-hidden="true"></i></a></li>
+						<li><a href="">La Plateforme_, une nouvelle école du numérique à Marseille <i class="fa fa-arrow-right" aria-hidden="true"></i></a></li>
+					</ul>
 
 				</aside>
 			</section>
@@ -58,7 +83,9 @@
 
 
 		<footer id="footer_end">
-			<adress></adress>
+			<div id="bordel_footer">
+				<p><a href="">Qui sommes nous</a> | <a href="">Contact Publicité</a> | <a href="">Recrutement</a> | <a href="">Données personnelles</a> | <a href="">Paramétrer les cookies</a> | <a href="">Mentions légales</a> | <a href="">Tous les articles</a> | <a href="">Corrections</a>
+			<br><br><a href="mailto:contact-leakid@gmail.com">contact-leakide@gmail.com</a></p></div>
 		</footer>
 
 	</body>

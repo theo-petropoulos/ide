@@ -15,7 +15,6 @@ body{
 #nav_bar{
 	position:relative;
 	display:flex;
-	max-height:130px;
 	margin:0.5% 0.5% 2% 0.5%;
 
 }
@@ -38,7 +37,6 @@ nav ul{
 	justify-content: flex-end;
 	margin-top:auto;
 	margin-bottom:auto;
-	height:40%;
 	background-color:#E1CC48;
 	flex-wrap:wrap;
 	border:1px solid #D6DFDF;
@@ -86,6 +84,8 @@ main{
 	display:flex;
 	margin-left:1.5%;
 	margin-right:1.5%;
+    flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 /*****BLOC GAUCHE*****/
@@ -95,10 +95,11 @@ main{
 	flex-direction:column;
 	position:relative;
 	background-color:#474137;
-	width:auto;
+	max-width:45%;
+	min-width:40%;
 	border:2px solid white;
 	border-radius:8px;
-	margin-right:3%;
+	flex:1;
 }
 
 #block_main header{
@@ -163,6 +164,9 @@ main{
 #block_droit{
 	display:flex;
 	flex-direction:column;
+	max-width:45%;
+	min-width:40%;
+	flex:1;
 }
 
 aside{

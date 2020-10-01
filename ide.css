@@ -8,12 +8,39 @@ html{
 }
 
 header{
+	position:relative;
+	display:flex;
 	background-color:#604F3D;
 }
 
+header img{
+	width:10%;
+}
+
+nav{
+	display:flex;
+	justify-content: center;
+	position:absolute;
+	right:0%;
+}
+
+nav ul{
+	display:flex;
+	list-style-type:none;
+}
+
+nav a{
+	text-decoration:none;
+	background-color:#272821;
+	padding:30px;
+}
+
 article{
+	display:flex;
+	flex-direction:column;
 	background-color:#F05694;
-	width:30%;
+	width:auto;
+	height:auto;
 	border:2px solid white;
 }
 
@@ -22,9 +49,19 @@ article header, aside header{
 }
 
 aside{
+	display:flex;
 	background-color:#9A74D5;
-	width:30%;
+	width:auto;
 	border: 2px solid white;
+}
+
+main{
+	display:flex;
+	flex-direction:row;
+}
+
+article img{
+	width:100%;
 }
 
 #footer_end{
@@ -33,12 +70,16 @@ aside{
 	width:100%;
 }
 
-main{
-	display:flex;
-	flex-direction:row;
-}
 
 #block_droit{
 	display:flex;
 	flex-direction:column;
+}
+
+#block_main{
+	padding:0px;
+}
+
+#leak_ide_logo{
+
 }

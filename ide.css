@@ -71,7 +71,6 @@ nav li a{
 
 nav li:hover{
 	background-color:#86775D;
-	font-size:1.1em;
 }
 
 .invisible_box{
@@ -88,6 +87,14 @@ main{
 	justify-content: space-between;
 }
 
+#leak-ide-logo{
+	width:5%;
+	float:left;
+	position:absolute;
+	z-index:2;
+	top:1%;
+}
+
 /*****BLOC GAUCHE*****/
 
 #block_main{
@@ -95,8 +102,6 @@ main{
 	flex-direction:column;
 	position:relative;
 	background-color:#474137;
-	max-width:45%;
-	min-width:40%;
 	border:2px solid white;
 	border-radius:8px;
 	flex:1;
@@ -164,8 +169,6 @@ main{
 #block_droit{
 	display:flex;
 	flex-direction:column;
-	max-width:45%;
-	min-width:40%;
 	flex:1;
 }
 

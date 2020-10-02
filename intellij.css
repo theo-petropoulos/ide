@@ -119,7 +119,7 @@ main{
 
 #block_gauche h2{
 	margin:auto;
-	font-family:'Spartan', 'Courier';
+	font-family:'Noto Sans', 'Courier';
 	font-size:1.5em;
 	font-weight:600;
 	color:white;
@@ -127,7 +127,7 @@ main{
 
 #text_block_gauche{
 	margin: auto 3% auto 3%;
-	font-family:'Imprima', 'Courier';
+	font-family:'Raleway', 'Courier';
 	color:black;
 	font-size:1.2em;
 }
@@ -219,7 +219,7 @@ figcaption{
 	flex-direction:column;
 	flex-grow:1;
 	color:black;
-	font-family:'Imprima', 'Courier';
+	font-family:'Raleway', 'Courier';
 	justify-content: center;
 	margin:-3% 2% 0% 2%;
 	font-size:1.2em;
@@ -233,7 +233,7 @@ figcaption{
 }
 
 #block_droit h2{
-	font-family:'Spartan', 'Courier';
+	font-family:'Noto Sans', 'Courier';
 	color:white;
 	text-align:center;
 }

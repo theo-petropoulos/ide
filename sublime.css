@@ -1,5 +1,5 @@
 html{
-	background-color:#231F3E;
+	background-color:#2E2619;
 	margin-top:0;
 	padding-top:0;
 }
@@ -40,7 +40,7 @@ nav ul{
 	margin-top:0;
 	margin-bottom:0;
 	background: rgb(225,204,72);
-	background: linear-gradient(90deg, rgba(225,204,72,1) 0%, rgba(61,50,115,1) 32%);
+	background: linear-gradient(90deg, rgba(225,204,72,1) 0%, rgba(238,138,42,1) 32%);
 	flex-wrap:wrap;
 	border:1px groove #E1CC48;
 	border-left:none;
@@ -55,7 +55,7 @@ nav li{
 	border-top:none;
 	border-bottom:none;
 	list-style-type: none;
-	background-color:#3D3273;
+	background-color:#EE8A2A;
 }
 
 
@@ -72,7 +72,7 @@ nav li a{
 }
 
 nav li:hover{
-	background-color:#6858BA;
+	background-color:#F8A353;
 }
 
 .invisible_box{
@@ -98,22 +98,22 @@ main{
 }
 
 #block_gauche{
-	background-color:#25252B;
+	background-color:#3A3A3A;
 	margin-right:2%;
 }
 
 #block_gauche header{
 	display:flex;
 	border-bottom:2px solid white;
-	background-color:#2C2C32;
+	background-color:#EE8A2A;
 	border-top-right-radius:8px;
 	border-top-left-radius:8px;
 }
 
 #logo{
-	padding:2%;
-	width:8%;
+	width:12%;
 	border-right:2px solid white;
+	border-top-left-radius:8px;
 }
 
 #block_gauche h2{
@@ -127,17 +127,17 @@ main{
 #text_block_gauche{
 	margin: auto 3% auto 3%;
 	font-family:'Imprima', 'Courier';
-	color:#A5A5A8;
+	color:#D87A26;
 	font-size:1.2em;
 }
 
 #text_block_gauche a{
-	color:#CCCCD1;
+	color:#FDAB5E;
 	text-decoration:none;
 }
 
 #text_block_gauche a:hover{
-	background-color:#728080;
+	background-color:#1D1F21;
 }
 
 #block_gauche, #screen_droit{
@@ -151,7 +151,7 @@ main{
 }
 
 #screen_droit{
-	width:50%;
+	width:40%;
 	height:auto;
 }
 
@@ -189,7 +189,7 @@ figcaption{
 #block_droit{
 	display:flex;
 	flex-direction:column;
-	background-color:#25252B;
+	background-color:#3A3A3A;
 	flex-grow:0.8;
 	margin-left:2%;
 	border:2px solid white;
@@ -225,7 +225,7 @@ figcaption{
 
 #block_droit header{
 	border-bottom:2px solid white;
-	background-color:#2C2C32;
+	background-color:#EE8A2A;
 	border-top-left-radius:8px;
 	border-top-right-radius:8px;
 }
@@ -237,7 +237,7 @@ figcaption{
 }
 
 #download{
-	background-color:#0066B8;
+	background-color:#EE8A2A;
 	padding:2% 3% 2% 3%;
 	color:white;
 	text-decoration:none;
@@ -246,6 +246,7 @@ figcaption{
 	align-items:center;
 	margin-right:auto;
 	margin-left:auto;
+
 }
 
 em{

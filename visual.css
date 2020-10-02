@@ -1,5 +1,5 @@
 html{
-	background-color:#272E32;
+	background-color:#231F3E;
 	margin-top:0;
 	padding-top:0;
 }
@@ -9,7 +9,6 @@ body{
 	padding:0;
 	outline:0;
 }
-
 
 
 /*****NAV BAR*****/
@@ -41,7 +40,7 @@ nav ul{
 	margin-top:0;
 	margin-bottom:0;
 	background: rgb(225,204,72);
-	background: linear-gradient(90deg, rgba(225,204,72,1) 0%, rgba(71,65,55,1) 32%);
+	background: linear-gradient(90deg, rgba(225,204,72,1) 0%, rgba(61,50,115,1) 32%);
 	flex-wrap:wrap;
 	border:1px groove #E1CC48;
 	border-left:none;
@@ -52,11 +51,11 @@ nav li{
 	display:flex;
 	flex-grow:1;
 	justify-content: center;
-	border-right:1px double #E1CC48;
+	border-right:1px solid #E1CC48;
 	border-top:none;
 	border-bottom:none;
 	list-style-type: none;
-	background-color:#474137;
+	background-color:#3D3273;
 }
 
 
@@ -73,7 +72,7 @@ nav li a{
 }
 
 nav li:hover{
-	background-color:#86775D;
+	background-color:#6858BA;
 }
 
 .invisible_box{
@@ -82,15 +81,181 @@ nav li:hover{
 
 /**************/
 
+main{
+	display:flex;
+	flex-direction: column;
+	margin-left:1.5%;
+	margin-right:1.5%;
+	flex-wrap:wrap;
+}
+
+/*****BLOCK_HAUT******/
 
 
+#block_haut{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+#block_gauche{
+	background-color:#25252B;
+	margin-right:2%;
+}
+
+#block_gauche header{
+	display:flex;
+	border-bottom:2px solid white;
+	background-color:#2C2C32;
+	border-top-right-radius:8px;
+	border-top-left-radius:8px;
+}
+
+#logo{
+	padding:2%;
+	width:8%;
+	border-right:2px solid white;
+}
+
+#block_gauche h2{
+	margin:auto;
+	font-family:'Spartan', 'Courier';
+	font-size:1.5em;
+	font-weight:600;
+	color:white;
+}
+
+#text_block_gauche{
+	margin: auto 3% auto 3%;
+	font-family:'Imprima', 'Courier';
+	color:#A5A5A8;
+	font-size:1.2em;
+}
+
+#text_block_gauche a{
+	color:#CCCCD1;
+	text-decoration:none;
+}
+
+#text_block_gauche a:hover{
+	background-color:#728080;
+}
+
+#block_gauche, #screen_droit{
+	display:flex;
+	flex-direction:column;
+	border:2px solid white;
+	width:40%;
+	min-width:300px;
+	flex-grow:1;
+	border-radius:8px;
+}
+
+#screen_droit{
+	width:50%;
+	height:auto;
+}
+
+figure{
+	margin-right:0;
+	margin-left:0;
+}
+
+figure img{
+	width:100%;
+	border-top-right-radius:8px;
+	border-top-left-radius:8px;
+}
+
+figcaption{
+	border-bottom-right-radius:8px;
+	border-bottom-left-radius:8px;
+	background-color:#25252B;
+	font-family:'Imprima', 'Courier';
+	color:#CCCCD1;
+	margin-left:1%;
+	padding-top:1%;
+	padding-bottom:1%;
+}
 
 
+/*****BLOCK_BAS******/
 
+#block_bas{
+	display:flex;
+	flex-wrap:wrap-reverse;
+	justify-content: space-between;
+}
 
+#block_droit{
+	background-color:#3D3273;
+	flex-grow:0.8;
+	margin-left:2%;
+	border:2px solid white;
+	border-radius:8px;
+}
 
+#block_droit, #screen_gauche{
+	display:flex;
+	flex-direction:column;
+	border:2px solid white;
+	width:40%;
+	min-width:300px;
+	border:2px solid white;
+}
 
+#screen_gauche{
+	width:50%;
+	border:2px solid white;
+	border-radius:8px;
+	flex-grow:1;
+}
 
+#text_block_droit{
+	display:flex;
+	flex-direction:column;
+	flex-grow:1;
+	color:#A5A5A8;
+	font-family:'Imprima', 'Courier';
+	justify-content: center;
+	margin:-3% 2% 0% 2%;
+	font-size:1.2em;
+}
+
+#block_droit{
+	display:flex;
+	flex-direction:column;
+	background-color:#25252B;
+}
+
+#block_droit header{
+	border-bottom:2px solid white;
+	background-color:#2C2C32;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+}
+
+#block_droit h2{
+	font-family:'Spartan', 'Courier';
+	color:white;
+	text-align:center;
+}
+
+#download_visual{
+	background-color:#0066B8;
+	padding:2% 3% 2% 3%;
+	color:white;
+	text-decoration:none;
+	font-family:'Trebuchet MS';
+	text-align:center;
+	align-items:center;
+	margin-right:auto;
+	margin-left:auto;
+
+}
+
+em{
+	font-style:inherit;
+}
 
 /*****FOOTER*****/
 

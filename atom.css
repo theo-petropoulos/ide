@@ -16,15 +16,8 @@ body{
 #nav_bar{
 	position:relative;
 	display:flex;
-	margin-bottom:2%;
-	height:50px;
+	height:30px;
 
-}
-
-#nav_bar img{
-	width:1%;
-	flex-grow:0.3;
-	border:1px solid white;
 }
 
 nav{
@@ -39,10 +32,8 @@ nav ul{
 	justify-content: flex-end;
 	margin-top:0;
 	margin-bottom:0;
-	background: rgb(225,204,72);
-	background: linear-gradient(90deg, rgba(225,204,72,1) 0%, rgba(88,75,79,1) 32%);
+	background:#584B4F;
 	flex-wrap:wrap;
-	border:1px groove #E1CC48;
 	border-left:none;
 	border-right:none;
 }
@@ -51,9 +42,6 @@ nav li{
 	display:flex;
 	flex-grow:1;
 	justify-content: center;
-	border-right:1px solid #E1CC48;
-	border-top:none;
-	border-bottom:none;
 	list-style-type: none;
 	background-color:#584B4F;
 }
@@ -66,7 +54,7 @@ nav li a{
 	justify-content: center;
 	align-items:center;
 	text-decoration:none;
-	font-size:1.5em;
+	font-size:1em;
 	color:white;
 	font-family:'Spartan', 'Courier';
 }
@@ -84,8 +72,6 @@ nav li:hover{
 main{
 	display:flex;
 	flex-direction: column;
-	margin-left:1.5%;
-	margin-right:1.5%;
 	flex-wrap:wrap;
 }
 
@@ -95,34 +81,30 @@ main{
 #block_haut{
 	display:flex;
 	flex-wrap:wrap;
+	justify-content:center;
 }
 
 #block_gauche{
-	background-color:#78AF9F;
-	margin-right:2%;
+	background: rgb(33,37,43);
+	background: linear-gradient(0deg, rgba(33,37,43,1) 0%, rgba(120,175,159,1) 30%);
+	flex-grow:9999;
 }
 
 #block_gauche header{
 	display:flex;
-	border-bottom:2px solid white;
-	background-color:#E0AD37;
-	border-top-right-radius:8px;
-	border-top-left-radius:8px;
 }
 
 #logo{
 	width:12%;
-	border-right:2px solid white;
-	border-top-left-radius:8px;
-	background-color:#F0D9A3;
 }
 
 #block_gauche h2{
 	margin:auto;
-	font-family:'Berlin Sans FB', 'Courier';
+	font-family:'Atomic Age', 'Courier';
 	font-size:1.5em;
 	font-weight:600;
-	color:white;
+	color:#E0AD37;
+	text-shadow:1px 0 white, 0 1px white;
 }
 
 #text_block_gauche{
@@ -144,16 +126,15 @@ main{
 #block_gauche, #screen_droit{
 	display:flex;
 	flex-direction:column;
-	border:2px solid white;
-	width:40%;
+	width:45%;
 	min-width:300px;
-	flex-grow:1;
-	border-radius:8px;
 }
 
 #screen_droit{
-	width:40%;
 	height:auto;
+	margin:0;
+	flex-grow:1;
+	width:50%;
 }
 
 figure{
@@ -163,13 +144,9 @@ figure{
 
 figure img{
 	width:100%;
-	border-top-right-radius:8px;
-	border-top-left-radius:8px;
 }
 
 figcaption{
-	border-bottom-right-radius:8px;
-	border-bottom-left-radius:8px;
 	background-color:#25252B;
 	font-family:'Imprima', 'Courier';
 	color:#CCCCD1;
@@ -184,32 +161,28 @@ figcaption{
 #block_bas{
 	display:flex;
 	flex-wrap:wrap-reverse;
-	justify-content: space-between;
-}
-
-#block_droit{
-	display:flex;
-	flex-direction:column;
-	background-color:#78AF9F;
-	flex-grow:0.8;
-	margin-left:2%;
-	border:2px solid white;
-	border-radius:8px;
+	justify-content: center;
+	align-items:stretch;
 }
 
 #block_droit, #screen_gauche{
 	display:flex;
 	flex-direction:column;
-	border:2px solid white;
 	width:40%;
 	min-width:300px;
-	border:2px solid white;
+}
+
+#block_droit{
+	display:flex;
+	flex-direction:column;
+	background: rgb(37,37,43);
+	background: linear-gradient(180deg, rgba(37,37,43,1) 0%, rgba(120,175,159,1) 30%);
+	flex-grow:9999;
 }
 
 #screen_gauche{
 	width:50%;
-	border:2px solid white;
-	border-radius:8px;
+	margin:0;
 	flex-grow:1;
 }
 
@@ -224,17 +197,12 @@ figcaption{
 	font-size:1.2em;
 }
 
-#block_droit header{
-	border-bottom:2px solid white;
-	background-color:#E0AD37;
-	border-top-left-radius:8px;
-	border-top-right-radius:8px;
-}
 
 #block_droit h2{
-	font-family:'Berlin Sans FB', 'Courier';
-	color:white;
+	font-family:'Atomic Age', 'Courier';
+	color:#E0AD37;
 	text-align:center;
+	text-shadow:0 1px white, 1px 0 white;
 }
 
 #download{
@@ -247,6 +215,8 @@ figcaption{
 	align-items:center;
 	margin-right:auto;
 	margin-left:auto;
+	border-radius:6px;
+	box-shadow:2px 0 2px #527269, 0 2px 2px #527269;
 
 }
 
@@ -259,16 +229,14 @@ em{
 #footer_end{
 	background-color:#E1CC48;
 	width:100%;
-	margin-top:2%;
-	margin-bottom:0;
 	padding-bottom:1%;
-	border-top:2px solid white;
 }
 
 #footer_end p{
 	padding-top:1%;
 	text-align:center;
 	margin-bottom:0;
+	margin-top:0;
 }
 
 #bordel_footer p a{

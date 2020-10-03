@@ -108,7 +108,7 @@ main{
 }
 
 #text_block_gauche{
-	margin: auto 3% auto 3%;
+	margin: auto 10% auto 10%;
 	font-family:'Montserrat', 'Courier';
 	color:#343334;
 	font-size:1.2em;
@@ -193,8 +193,12 @@ figcaption{
 	color:#343334;
 	font-family:'Montserrat', 'Courier';
 	justify-content: center;
-	margin:-3% 2% 0% 2%;
+	margin:auto 10% 0% 10%;
 	font-size:1.2em;
+}
+
+#text_block_droit ul{
+	margin-top:0%;
 }
 
 
